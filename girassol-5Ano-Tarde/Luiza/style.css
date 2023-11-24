@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+h1 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(124, 134, 224);
+    color: white;
+}
+
+header { 
+    background: url("img/WhatsApp\ Image\ 2023-11-09\ at\ 22.09.04.jpeg");
+    background-position: center;
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+#content {
+    min-height: 200px; ;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
